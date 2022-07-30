@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        .You {
+            background-image: url(Tech6..png);
+            width: auto;
+            height: 900px;
+            background-color: aqua;
+            position: relative;
+            overflow-y: hidden;
+            animation-name: care;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes care {
+            20% {
+                background-image: url(Tech6..png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            50% {
+                background-image: url(Tech4..png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            90% {
+                background-image: url(Tech2..png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        .a, .b, .c {
+            text-align: center;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            height: 250px;
+            width: 750px;
+            color: white;
+            transform: translateY(300%);
+        }
+                .a {
+            animation-name: a;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        .b {
+            animation-name: b;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        .c {
+            animation-name: c;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes a {
+            5% {
+                transform: translateY(0%);
+            }
+            20% {
+                transform: translateY(0%);
+            }
+            30% {
+                transform: translateY(300%);
+            }
+            60% {
+                transform: translateY(300%);
+            }
+        }
+        @keyframes b {
+            0% {
+                transform: translateY(300%);
+            }
+            20% {
+                transform: translateY(300%);
+            }
+            30% {
+                transform: translateY(0%);
+            }
+            50% {
+                transform: translateY(0%);
+            }
+            60% {
+                transform: translateY(300%);
+            }
+        }
+        @keyframes c {
+            0% {
+                transform: translateY(300%);
+            }
+            20% {
+                transform: translateY(300%);
+            }
+            30% {
+                transform: translateY(300%);
+            }
+            60% {
+                transform: translateY(300%);
+            }
+            70% {
+                transform: translateY(0%);
+            }
+            90% {
+                transform: translateY(0%);
+            }
+            92% {
+                transform: translateY(300%);
+            }
+        }
+        p {
+            font-size: 50px;
+            color: red;
+        }
+        button {
+            padding: 15px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="You">
+        <div class="a">
+            <p>Welcome To My Page</p>
+            <Button>GET STARTED</Button>
+        </div>
+        <div class="b">
+            <p>Only those who apply the principles of Web Design are true Designers</p>
+            <button>GET STARTED</button>
+        </div>
+        <div class="c">
+            <p>A trial will convince You</p>
+            <button>GET STARTED</button>
+        </div>
+    </div>
+</body>
+</html>
